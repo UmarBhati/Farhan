@@ -1,0 +1,170 @@
+*{margin: 0;
+padding: 0;
+font-family: Century Gothic;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../sit4.webp);
+        height: 100vh;
+               background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    
+    
+}
+ul{
+    float: right;
+    list-style: none;
+    
+}
+ul li{
+    display: inline-block;
+    margin-top: 25px;
+}
+ul li a{
+    
+    text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    border: 1px solid;
+    transition: 0.6s ease;
+
+}
+
+ul li a:hover{
+    background-color:none;
+    color: skyblue;
+
+}
+ul li.active a{
+    background-color:gray;
+    color: skyblue;
+   
+
+}
+.logo img{
+    float:left;
+    width: 100px;
+    height: 70px;
+    padding-top: 10px;
+    
+}
+.main {
+    max-width: 1200px;
+    margin:auto;
+}
+.title{
+
+    position:absolute;
+    font-size: x-large;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+     border: 1px solid white;
+     padding: 5px 20px;
+}
+.title h1{
+    color:white;
+    font-size: 70px;
+}
+.button{
+    position:absolute;
+   
+    top: 65%;
+    left: 50%;
+    transform: translate(-60%,-50%);
+
+}
+.btn{
+    border: 1px solid white;
+    /* border-margin-right: 2px; */
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
+    transition: 0.5s ease;
+}
+.btn:hover{
+    padding: 2px;
+    
+    background-color:none;
+    color: skyblue;
+
+}
+.search-box{
+    
+    padding: 20px;
+    align-items: center;
+    background-color: gray;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    align-items: left;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 10px;
+  }
+
+  .flex-container > div{
+      padding: 20px;
+  }
+
+  .search {
+      margin-left: 40%;
+  }
+ 
+  ul li a{ background-color: #000;
+    margin-top: 40px;
+      
+  }
+  .categories
+  {
+      margin-left: 20%;
+  }
+ .form
+{
+    margin-left: 40%;
+   
+    width: 20%;
+    height: 40%;
+}
+.butt
+{
+    margin-left: 90px;
+    background-color: orange;
+    width: 80px;
+    height: 40px;
+    
+}
+.order
+{
+    text-align: center;
+    width: 100%;
+}
